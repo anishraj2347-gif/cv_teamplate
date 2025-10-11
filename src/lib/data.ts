@@ -1,73 +1,68 @@
-import { Github, Linkedin, Twitter, Code, Monitor, Server, Database, BrainCircuit, Paintbrush } from 'lucide-react';
+import { Github, Linkedin, Twitter, Code, Monitor, Server, Database, BrainCircuit, Paintbrush, Clapperboard, Lightbulb } from 'lucide-react';
 
 export const personalData = {
   name: "Anish Raj",
-  title: "Data Scientist",
-  bio: "A passionate data scientist with a love for extracting insights from data to solve real-world problems. I blend statistical analysis and machine learning to build intelligent applications. This immersive CV is a testament to my dedication to showcasing data-driven projects.",
+  title: "Data Scientist @ Tata Elxsi",
+  bio: "I'm a Data Scientist with a passion for building awesome products using data, with about 2 years of experience in the field. My main focus is on creating smart solutions with data, with a special interest in Machine Learning, Deep Learning, and Recommendation Systems. I'm all about using data to tell stories and find cool insights. I'm also really into MLOps, which is about making sure machine learning models work smoothly in the real world.",
   contact: {
     email: "anish.raj@example.com",
     social: [
-      { name: "GitHub", url: "https://github.com", icon: Github },
-      { name: "LinkedIn", url: "https://linkedin.com", icon: Linkedin },
+      { name: "GitHub", url: "https://github.com/Anish-raj-99", icon: Github },
+      { name: "LinkedIn", url: "https://www.linkedin.com/in/anish-raj99", icon: Linkedin },
       { name: "Twitter", url: "https://twitter.com", icon: Twitter },
     ],
   },
 };
 
 export const skillsData = [
-  { name: "Python & R", icon: Code },
+  { name: "Python", icon: Code },
   { name: "Machine Learning", icon: BrainCircuit },
+  { name: "Deep Learning", icon: Lightbulb },
+  { name: "SQL", icon: Database },
+  { name: "MLOps", icon: Server },
   { name: "Data Visualization", icon: Paintbrush },
-  { name: "SQL & BigQuery", icon: Database },
-  { name: "Cloud Platforms (GCP)", icon: Server },
-  { name: "Statistical Analysis", icon: Monitor },
 ];
 
 export const experienceData = [
   {
-    company: "Data Insights Corp.",
-    role: "Lead Data Scientist",
-    period: "2020 - Present",
-    description: "Led a team of data scientists on projects related to predictive modeling and customer segmentation. Developed and deployed machine learning models that resulted in a 15% increase in customer retention. Specialized in natural language processing (NLP) for sentiment analysis.",
-    rawTimeline: "At Data Insights Corp. from 2020 to present, I work as a Lead Data Scientist. I lead projects on predictive modeling and have deployed ML models that boosted customer retention by 15%. My focus is on NLP.",
+    company: "Tata Elxsi",
+    role: "Data Scientist",
+    period: "Sep 2022 - Present",
+    description: "Developing and deploying machine learning models for various projects, focusing on recommendation systems and predictive analytics. Responsible for the end-to-end MLOps lifecycle to ensure models are robust and scalable.",
+    rawTimeline: "At Tata Elxsi, from September 2022 to present, I am a Data Scientist. I develop and deploy machine learning models, specializing in recommendation systems and predictive analytics, and I manage the full MLOps lifecycle.",
   },
   {
-    company: "Analytics Solutions",
-    role: "Data Analyst",
-    period: "2018 - 2020",
-    description: "Performed data analysis and created dashboards to track key business metrics. Worked with large datasets to identify trends and provide actionable insights to stakeholders. Cleaned and preprocessed data to ensure accuracy for modeling.",
-    rawTimeline: "During my time at Analytics Solutions between 2018 and 2020 as a Data Analyst, I analyzed data and built dashboards. I worked with large datasets to find trends and prepared data for modeling.",
+    company: "Oyo",
+    role: "Patron - Data Science",
+    period: "Dec 2021 - Sep 2022",
+    description: "Contributed to data science initiatives, working on data analysis and model building to support business decisions. Gained experience in handling large-scale datasets and collaborating with cross-functional teams.",
+    rawTimeline: "As a Patron in Data Science at Oyo from December 2021 to September 2022, I contributed to data analysis and model building to support business decisions using large-scale datasets.",
   },
 ];
 
 export const projectsData = [
   {
     id: "project1",
-    title: "Customer Churn Prediction",
-    description: "Developed a machine learning model to predict customer churn, achieving 92% accuracy. The model helps the business to proactively retain customers.",
-    tech: ["Python", "Scikit-learn", "Pandas"],
+    title: "Movie Recommender System",
+    description: "Built a content-based movie recommender system that suggests movies to users based on their preferences.",
+    tech: ["Python", "Scikit-learn", "Streamlit"],
     imageUrlId: "project-alpha",
-    projectDetails: "This project predicts customer churn. Technologies used: Python with Scikit-learn and Pandas for data manipulation and modeling. The challenge was handling imbalanced data. The outcome was a highly accurate model that provides value to the business.",
+    projectDetails: "This project involved creating a recommender system for movies. I used Python and Scikit-learn for the core logic and Streamlit to build a simple web interface. The main challenge was to efficiently process movie metadata to create meaningful recommendations.",
   },
   {
     id: "project2",
-    title: "Sentiment Analysis of Reviews",
-    description: "A project to analyze customer reviews using NLP techniques to determine sentiment. The results are visualized in an interactive dashboard.",
-    tech: ["Python", "NLTK", "Tableau"],
+    title: "Car Price Prediction",
+    description: "Developed a regression model to predict the price of used cars based on their features.",
+    tech: ["Python", "Pandas", "Scikit-learn"],
     imageUrlId: "project-beta",
-    projectDetails: "This project performs sentiment analysis on customer reviews. Technologies: Python with NLTK for natural language processing, and Tableau for data visualization. The main challenge was to handle slang and misspellings in the review text. The project provides a clear overview of customer sentiment.",
+    projectDetails: "This project predicts the price of used cars. It uses Python with Pandas for data cleaning and Scikit-learn for building the regression model. The main outcome was a predictive tool that can help users estimate car values.",
   },
 ];
 
 export const educationData = [
     {
-        institution: "University of Data Science",
-        degree: "Master of Science in Data Science",
-        period: "2016 - 2018",
-    },
-    {
-        institution: "State University",
-        degree: "Bachelor of Science in Statistics",
-        period: "2012 - 2016",
+        institution: "Vellore Institute of Technology",
+        degree: "Bachelor of Technology - Computer Science and Engineering",
+        period: "2018 - 2022",
     }
 ];
