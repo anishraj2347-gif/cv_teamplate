@@ -8,27 +8,27 @@
     },
     {
       "id": "project-gamma",
-      "description": "Illustration of a CRM dashboard",
-      "imageUrl": "https://picsum.photos/seed/crm/600/400",
-      "imageHint": "crm dashboard"
+      "description": "Illustration of a CRM dashboard with charts and graphs.",
+      "imageUrl": "https://picsum.photos/seed/analytics/600/400",
+      "imageHint": "data analytics"
     },
     {
       "id": "project-delta",
-      "description": "A diagram of a clean data pipeline",
-      "imageUrl": "https://picsum.photos/seed/datacleanup/600/400",
+      "description": "A diagram of a clean data pipeline with processing steps.",
+      "imageUrl": "https://picsum.photos/seed/pipeline/600/400",
       "imageHint": "data pipeline"
     },
     {
       "id": "project-epsilon",
-      "description": "A reporting dashboard for admissions and loans",
-      "imageUrl": "https://picsum.photos/seed/kpi/600/400",
+      "description": "A KPI dashboard showing key metrics and performance indicators.",
+      "imageUrl": "https://picsum.photos/seed/dashboard/600/400",
       "imageHint": "kpi dashboard"
     },
     {
       "id": "project-zeta",
-      "description": "A chart showing productivity improvement",
-      "imageUrl": "https://picsum.photos/seed/workflow/600/400",
-      "imageHint": "workflow analysis"
+      "description": "A chart showing productivity improvement over time.",
+      "imageUrl": "https://picsum.photos/seed/growth/600/400",
+      "imageHint": "growth chart"
     }
   ]
 }
