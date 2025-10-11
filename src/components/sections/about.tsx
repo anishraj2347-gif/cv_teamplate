@@ -10,7 +10,13 @@ export function AboutSection() {
   const profilePic = PlaceHolderImages.find(p => p.id === personalData.profilePictureUrlId);
   return (
     <Section id="about" className="bg-background">
-      <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-center">
+      <div className="grid md:grid-cols-[2fr_1fr] gap-12 items-center">
+        <div className="space-y-4">
+          <SectionHeading>About Me</SectionHeading>
+          <p className="text-lg text-muted-foreground leading-relaxed whitespace-pre-line">
+            {personalData.bio}
+          </p>
+        </div>
         <div className="relative w-full max-w-xs mx-auto aspect-square">
           {profilePic && (
              <Image
@@ -21,12 +27,6 @@ export function AboutSection() {
                 sizes="(max-width: 768px) 100vw, 33vw"
              />
           )}
-        </div>
-        <div className="space-y-4">
-          <SectionHeading>About Me</SectionHeading>
-          <p className="text-lg text-muted-foreground leading-relaxed whitespace-pre-line">
-            {personalData.bio}
-          </p>
         </div>
       </div>
       <div className="mt-16 rounded-lg border bg-card text-card-foreground shadow-sm">
