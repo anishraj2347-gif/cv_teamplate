@@ -15,8 +15,8 @@
     {
       "id": "project-delta",
       "description": "A diagram of a clean data pipeline with processing steps.",
-      "imageUrl": "https://picsum.photos/seed/pipeline/600/400",
-      "imageHint": "data pipeline"
+      "imageUrl": "https://picsum.photos/seed/datacleaning/600/400",
+      "imageHint": "data cleaning"
     },
     {
       "id": "project-epsilon",
