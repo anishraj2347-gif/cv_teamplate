@@ -40,10 +40,7 @@ export function PortfolioSection() {
                 </div>
               )}
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold font-headline">{project.title}</h3>
-                <div className="mt-2 mb-4 flex flex-wrap gap-2">
-                  {project.tech.map(tech => <Badge key={tech} variant="secondary">{tech}</Badge>)}
-                </div>
+                <h3 className="text-xl font-bold font-headline mb-2">{project.title}</h3>
                 {index === 0 && project.projectDetails ? (
                   <>
                     <Badge variant="outline" className="mb-2 text-primary border-primary/50">
