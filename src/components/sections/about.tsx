@@ -1,36 +1,18 @@
 import { personalData } from "@/lib/data";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Section, SectionHeading } from "@/components/section-wrapper";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { MoveRight } from "lucide-react";
-import Image from "next/image";
 
 export function AboutSection() {
-  const profileImage = PlaceHolderImages.find(img => img.id === personalData.profilePictureUrlId);
-
   return (
     <Section id="about" className="bg-background">
       <div className="space-y-12">
-        <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-center">
-          <div className="md:col-span-2 space-y-4">
-            <SectionHeading>About Me</SectionHeading>
-            <p className="text-lg text-muted-foreground leading-relaxed whitespace-pre-line">
-              {personalData.bio}
-            </p>
-          </div>
-          {profileImage && (
-            <div className="relative w-48 h-48 md:w-64 md:h-64 mx-auto">
-              <Image
-                src={profileImage.imageUrl}
-                alt={personalData.name}
-                width={400}
-                height={400}
-                data-ai-hint={profileImage.imageHint}
-                className="rounded-full object-cover shadow-lg"
-              />
-            </div>
-          )}
+        <div className="space-y-4">
+          <SectionHeading>About Me</SectionHeading>
+          <p className="text-lg text-muted-foreground leading-relaxed whitespace-pre-line">
+            {personalData.bio}
+          </p>
         </div>
         
         <div className="rounded-lg border bg-card text-card-foreground shadow-sm">
