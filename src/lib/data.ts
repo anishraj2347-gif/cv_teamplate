@@ -21,7 +21,7 @@ Let’s connect and explore how we can use data to drive success!`,
     social: [
       { name: "GitHub", url: "https://github.com/anishraj2347-gif", icon: Github },
       { name: "LinkedIn", url: "https://www.linkedin.com/in/anish-raj99", icon: Linkedin },
-      { name: "Twitter", url: "https://twitter.com", icon: Twitter },
+      { name: "Twitter", url: "https://x.com/rajanish9999?t=fcmhCgtVegW7wsfEt_1_JA&s=09", icon: Twitter },
     ],
   },
 };
