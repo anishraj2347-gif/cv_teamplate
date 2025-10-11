@@ -1,8 +1,8 @@
 import { personalData } from "@/lib/data";
 import { Section, SectionHeading } from "@/components/section-wrapper";
-import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { MoveRight } from "lucide-react";
 
 export function AboutSection() {
   return (
@@ -14,23 +14,33 @@ export function AboutSection() {
             {personalData.bio}
           </p>
         </div>
-        <Card className="max-w-md mx-auto">
-          <CardContent className="p-6 space-y-4 text-center">
-            <h3 className="text-lg font-semibold">Connect with me</h3>
-            <p className="text-muted-foreground">
-              I'm always open to connecting with like-minded individuals. Feel free to reach out on social media.
-            </p>
-            <div className="flex justify-center gap-4">
-              {personalData.contact.social.map((social) => (
-                <Button key={social.name} variant="outline" size="icon" asChild>
-                  <Link href={social.url} target="_blank" aria-label={social.name}>
-                    <social.icon className="h-5 w-5" />
-                  </Link>
-                </Button>
-              ))}
+        
+        <div className="rounded-lg border bg-card text-card-foreground shadow-sm">
+          <div className="flex flex-col md:flex-row items-center justify-between p-6 gap-6">
+            <div className="text-center md:text-left">
+              <h3 className="text-xl font-bold font-headline">Let's Connect</h3>
+              <p className="text-muted-foreground mt-2">
+                I'm always open to new opportunities and collaborations.
+              </p>
             </div>
-          </CardContent>
-        </Card>
+            <div className="flex items-center gap-4">
+                {personalData.contact.social.map((social) => (
+                  <Button key={social.name} variant="outline" size="icon" asChild>
+                    <Link href={social.url} target="_blank" aria-label={social.name}>
+                      <social.icon className="h-5 w-5" />
+                    </Link>
+                  </Button>
+                ))}
+                <Button asChild>
+                  <a href={`mailto:${personalData.contact.email}`}>
+                    Email Me
+                    <MoveRight className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
+            </div>
+          </div>
+        </div>
+
       </div>
     </Section>
   );
