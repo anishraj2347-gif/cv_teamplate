@@ -1,9 +1,20 @@
-import { Github, Linkedin, Twitter, Code, BrainCircuit, Lightbulb, Database, Server, Paintbrush } from 'lucide-react';
+import { Github, Linkedin, Twitter, Code, Database, BarChart, FileJson } from 'lucide-react';
 
 export const personalData = {
   name: "Anish Raj",
-  title: "Data Scientist @ Nomad Credit",
-  bio: "I'm a Data Scientist with a passion for building awesome products using data, with about 2 years of experience in the field. My main focus is on creating smart solutions with data, with a special interest in Machine Learning, Deep Learning, and Recommendation Systems. I'm all about using data to tell stories and find cool insights. I'm also really into MLOps, which is about making sure machine learning models work smoothly in the real world.",
+  title: "Data Analyst | SQL, Python, Tableau Expert | Turning Data into Actionable Insights",
+  bio: `I am a data-driven professional with a passion for transforming raw data into meaningful insights that drive business growth and innovation. As a Data Analyst at Nomad Credit, I specialize in leveraging SQL, Python, and Tableau to clean, analyze, and visualize data, enabling smarter, data-backed decisions.
+
+In my role, I have:
+- Automated reporting workflows, reducing manual effort by 30% and improving team efficiency.
+- Developed interactive dashboards in Tableau, providing real-time insights that led to a 15% increase in decision-making speed.
+- Utilized Python for predictive modeling, uncovering trends that contributed to a 10% boost in revenue.
+
+What sets me apart is my ability to bridge the gap between technical analysis and business strategy. I thrive on solving complex problems, telling compelling data stories, and delivering actionable recommendations that create tangible impact.
+
+I am passionate about continuous learning and staying updated with the latest tools and technologies in data analytics. My goal is to contribute to innovative projects that push the boundaries of what data can achieve.
+
+Let’s connect and explore how we can use data to drive success!`,
   contact: {
     email: "anish.raj@example.com",
     social: [
@@ -16,20 +27,20 @@ export const personalData = {
 
 export const skillsData = [
   { name: "Python", icon: Code },
-  { name: "Machine Learning", icon: BrainCircuit },
-  { name: "Deep Learning", icon: Lightbulb },
   { name: "SQL", icon: Database },
-  { name: "MLOps", icon: Server },
-  { name: "Data Visualization", icon: Paintbrush },
+  { name: "Tableau", icon: BarChart },
+  { name: "HubSpot", icon: FileJson },
+  { name: "Machine Learning", icon: Code },
+  { name: "Data Visualization", icon: BarChart },
 ];
 
 export const experienceData = [
   {
     company: "Nomad Credit",
-    role: "Data Scientist",
+    role: "Data Analyst",
     period: "Sep 2022 - Present",
-    description: "Developing and deploying machine learning models for various projects, focusing on recommendation systems and predictive analytics. Responsible for the end-to-end MLOps lifecycle to ensure models are robust and scalable.",
-    rawTimeline: "At Nomad Credit, from September 2022 to present, I am a Data Scientist. I develop and deploy machine learning models, specializing in recommendation systems and predictive analytics, and I manage the full MLOps lifecycle.",
+    description: "Automated reporting workflows, developed interactive dashboards in Tableau, and utilized Python for predictive modeling to drive business decisions.",
+    rawTimeline: "At Nomad Credit, from September 2022 to present, I am a Data Analyst. I automate reporting, create Tableau dashboards, and use Python for predictive modeling.",
   },
   {
     company: "Oyo",
