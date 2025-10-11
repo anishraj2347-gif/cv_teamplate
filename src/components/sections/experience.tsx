@@ -1,15 +1,6 @@
 import { experienceData } from "@/lib/data";
 import { Section, SectionHeading, SectionSubheading } from "@/components/section-wrapper";
-import { Card, CardContent, CardHeader, CardDescription } from "@/components/ui/card";
-import { summarizeExperienceTimeline } from '@/ai/flows/summarize-experience-timeline';
-import { Badge } from "@/components/ui/badge";
-import { BrainCircuit } from "lucide-react";
-import { Suspense } from "react";
-
-async function AiSummary({ timeline }: { timeline: string }) {
-    const summary = await summarizeExperienceTimeline({ timeline });
-    return <p className="mt-2 text-sm italic text-primary/80 dark:text-primary/90">{summary.summary}</p>;
-}
+import { Card, CardHeader, CardDescription } from "@/components/ui/card";
 
 export function ExperienceSection() {
   return (
@@ -34,17 +25,6 @@ export function ExperienceSection() {
                             <CardHeader>
                             <CardDescription>{exp.description}</CardDescription>
                             </CardHeader>
-                            {index === 0 && exp.rawTimeline && (
-                                <CardContent>
-                                    <Badge variant="outline" className="text-primary border-primary/50">
-                                        <BrainCircuit className="mr-2 h-4 w-4" />
-                                        AI Generated Summary
-                                    </Badge>
-                                    <Suspense fallback={<div className="mt-2 text-sm italic text-primary/80">Generating summary...</div>}>
-                                        <AiSummary timeline={exp.rawTimeline} />
-                                    </Suspense>
-                                </CardContent>
-                            )}
                         </Card>
                     </div>
                 </div>
