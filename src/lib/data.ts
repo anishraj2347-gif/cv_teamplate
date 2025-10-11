@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Code, Monitor, Server, Database, BrainCircuit, Paintbrush, Clapperboard, Lightbulb } from 'lucide-react';
+import { Github, Linkedin, Twitter, Code, BrainCircuit, Lightbulb, Database, Server, Paintbrush } from 'lucide-react';
 
 export const personalData = {
   name: "Anish Raj",
@@ -43,19 +43,19 @@ export const experienceData = [
 export const projectsData = [
   {
     id: "project1",
-    title: "Movie Recommender System",
-    description: "Built a content-based movie recommender system that suggests movies to users based on their preferences.",
-    tech: ["Python", "Scikit-learn", "Streamlit"],
+    title: "Customer Churn Prediction",
+    description: "Developed a model to predict customer churn, helping the business to retain customers.",
+    tech: ["Python", "Scikit-learn", "Pandas"],
     imageUrlId: "project-alpha",
-    projectDetails: "This project involved creating a recommender system for movies. I used Python and Scikit-learn for the core logic and Streamlit to build a simple web interface. The main challenge was to efficiently process movie metadata to create meaningful recommendations.",
+    projectDetails: "This project focused on predicting customer churn for a telecom company. I used Python, Scikit-learn, and Pandas for data preprocessing, feature engineering, and model building. The resulting model helps identify at-risk customers, allowing for targeted retention strategies.",
   },
   {
     id: "project2",
-    title: "Car Price Prediction",
-    description: "Developed a regression model to predict the price of used cars based on their features.",
-    tech: ["Python", "Pandas", "Scikit-learn"],
+    title: "Topic Modeling for large text data",
+    description: "Built a topic model to identify latent topics from large-scale text data.",
+    tech: ["Python", "NLTK", "Gensim"],
     imageUrlId: "project-beta",
-    projectDetails: "This project predicts the price of used cars. It uses Python with Pandas for data cleaning and Scikit-learn for building the regression model. The main outcome was a predictive tool that can help users estimate car values.",
+    projectDetails: "In this project, I implemented Latent Dirichlet Allocation (LDA) to perform topic modeling on a large corpus of text documents. The goal was to uncover hidden thematic structures in the data. I used NLTK for text preprocessing and Gensim for the LDA model implementation.",
   },
 ];
 
