@@ -2,7 +2,7 @@ import { Github, Linkedin, Twitter, Code, BrainCircuit, Lightbulb, Database, Ser
 
 export const personalData = {
   name: "Anish Raj",
-  title: "Data Scientist @ Tata Elxsi",
+  title: "Data Scientist @ Nomad Credit",
   bio: "I'm a Data Scientist with a passion for building awesome products using data, with about 2 years of experience in the field. My main focus is on creating smart solutions with data, with a special interest in Machine Learning, Deep Learning, and Recommendation Systems. I'm all about using data to tell stories and find cool insights. I'm also really into MLOps, which is about making sure machine learning models work smoothly in the real world.",
   contact: {
     email: "anish.raj@example.com",
@@ -25,11 +25,11 @@ export const skillsData = [
 
 export const experienceData = [
   {
-    company: "Tata Elxsi",
+    company: "Nomad Credit",
     role: "Data Scientist",
     period: "Sep 2022 - Present",
     description: "Developing and deploying machine learning models for various projects, focusing on recommendation systems and predictive analytics. Responsible for the end-to-end MLOps lifecycle to ensure models are robust and scalable.",
-    rawTimeline: "At Tata Elxsi, from September 2022 to present, I am a Data Scientist. I develop and deploy machine learning models, specializing in recommendation systems and predictive analytics, and I manage the full MLOps lifecycle.",
+    rawTimeline: "At Nomad Credit, from September 2022 to present, I am a Data Scientist. I develop and deploy machine learning models, specializing in recommendation systems and predictive analytics, and I manage the full MLOps lifecycle.",
   },
   {
     company: "Oyo",
