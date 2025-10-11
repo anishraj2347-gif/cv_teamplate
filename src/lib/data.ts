@@ -60,7 +60,7 @@ export const projectsData = [
   {
     id: "project1",
     title: "Customer Churn Prediction",
-    description: "Developed a model to predict customer churn, helping the business to retain customers.",
+    description: "Developed a predictive model using Python and Scikit-learn to identify customers at risk of churning, enabling targeted retention strategies.",
     tech: [],
     imageUrlId: "project-alpha",
     projectDetails: "This project focused on predicting customer churn for a telecom company. I used Python, Scikit-learn, and Pandas for data preprocessing, feature engineering, and model building. The resulting model helps identify at-risk customers, allowing for targeted retention strategies.",
@@ -68,7 +68,7 @@ export const projectsData = [
   {
     id: "project2",
     title: "Topic Modeling for Large Text Data",
-    description: "Built a topic model to identify latent topics from large-scale text data.",
+    description: "Implemented Latent Dirichlet Allocation (LDA) to uncover hidden thematic structures from a large corpus of text documents.",
     tech: [],
     imageUrlId: "project-beta",
     projectDetails: "In this project, I implemented Latent Dirichlet Allocation (LDA) to perform topic modeling on a large corpus of text documents. The goal was to uncover hidden thematic structures in the data. I used NLTK for text preprocessing and Gensim for the LDA model implementation.",
@@ -76,7 +76,7 @@ export const projectsData = [
   {
     id: "project3",
     title: "CRM Data Migration and Report Setup",
-    description: "Managed the seamless migration of CRM data to a new platform and established automated reporting.",
+    description: "Successfully managed the migration of CRM data to a new platform, ensuring data integrity and setting up automated reporting.",
     tech: [],
     imageUrlId: "project-gamma",
     projectDetails: null,
@@ -84,7 +84,7 @@ export const projectsData = [
   {
     id: "project4",
     title: "Partnership Pipeline Data Cleanup",
-    description: "Executed a comprehensive data cleanup and standardization for the partnership pipeline, improving data quality by 40%.",
+    description: "Led a data cleanup and standardization project for the partnership pipeline, significantly improving data quality and reporting accuracy.",
     tech: [],
     imageUrlId: "project-delta",
     projectDetails: null,
@@ -92,15 +92,15 @@ export const projectsData = [
   {
     id: "project5",
     title: "Admissions & Loans Team Reporting",
-    description: "Designed and implemented reporting dashboards for the Admissions and Loans teams to track KPIs.",
+    description: "Designed and built KPI dashboards for the Admissions and Loans teams, providing clear insights into team performance.",
     tech: [],
     imageUrlId: "project-epsilon",
     projectDetails: null,
   },
   {
     id: "project6",
-    title: "Customer Success Productivity",
-    description: "Analyzed customer success workflows and provided data-driven recommendations that improved team productivity.",
+    title: "Customer Success Productivity Analysis",
+    description: "Analyzed customer success workflows to identify bottlenecks and provided data-driven recommendations that boosted team productivity.",
     tech: [],
     imageUrlId: "project-zeta",
     projectDetails: null,
