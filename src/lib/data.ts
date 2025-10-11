@@ -3,13 +3,14 @@ import { Github, Linkedin, Twitter, Code, Database, BarChart, FileJson } from 'l
 export const personalData = {
   name: "Anish Raj",
   title: "Data Analyst | SQL, Python, Tableau Expert | Turning Data into Actionable Insights",
-  bioIntro: "I am a data-driven professional with a passion for transforming raw data into meaningful insights that drive business growth and innovation. As a Data Analyst at Nomad Credit, I specialize in leveraging SQL, Python, and Tableau to clean, analyze, and visualize data, enabling smarter, data-backed decisions.",
-  bioAchievements: [
-    "Automated reporting workflows, reducing manual effort by 30% and improving team efficiency.",
-    "Developed interactive dashboards in Tableau, providing real-time insights that led to a 15% increase in decision-making speed.",
-    "Utilized Python for predictive modeling, uncovering trends that contributed to a 10% boost in revenue."
-  ],
-  bioClosing: `What sets me apart is my ability to bridge the gap between technical analysis and business strategy. I thrive on solving complex problems, telling compelling data stories, and delivering actionable recommendations that create tangible impact.
+  bio: `I am a data-driven professional with a passion for transforming raw data into meaningful insights that drive business growth and innovation. As a Data Analyst at Nomad Credit, I specialize in leveraging SQL, Python, HubSpot and Tableau to clean, analyze, and visualize data, enabling smarter, data-backed decisions.
+
+In my role, I have:
+- Automated reporting workflows, reducing manual effort by 30% and improving team efficiency.
+- Developed interactive dashboards in Tableau, providing real-time insights that led to a 15% increase in decision-making speed.
+- Utilized Python for predictive modeling, uncovering trends that contributed to a 10% boost in revenue.
+
+What sets me apart is my ability to bridge the gap between technical analysis and business strategy. I thrive on solving complex problems, telling compelling data stories, and delivering actionable recommendations that create tangible impact.
 
 I am passionate about continuous learning and staying updated with the latest tools and technologies in data analytics. My goal is to contribute to innovative projects that push the boundaries of what data can achieve.
 
