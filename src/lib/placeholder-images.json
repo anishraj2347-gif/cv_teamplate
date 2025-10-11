@@ -21,26 +21,26 @@
     {
       "id": "project-gamma",
       "description": "Illustration of a CRM dashboard",
-      "imageUrl": "https://picsum.photos/seed/projectgamma/600/400",
-      "imageHint": "CRM dashboard"
+      "imageUrl": "https://picsum.photos/seed/datamigration/600/400",
+      "imageHint": "data migration"
     },
     {
       "id": "project-delta",
       "description": "A diagram of a clean data pipeline",
-      "imageUrl": "https://picsum.photos/seed/projectdelta/600/400",
-      "imageHint": "data pipeline"
+      "imageUrl": "https://picsum.photos/seed/datacleanup/600/400",
+      "imageHint": "data cleanup"
     },
     {
       "id": "project-epsilon",
       "description": "A reporting dashboard for admissions and loans",
-      "imageUrl": "https://picsum.photos/seed/projectepsilon/600/400",
+      "imageUrl": "https://picsum.photos/seed/reporting/600/400",
       "imageHint": "reporting dashboard"
     },
     {
       "id": "project-zeta",
       "description": "A chart showing productivity improvement",
-      "imageUrl": "https://picsum.photos/seed/projectzeta/600/400",
-      "imageHint": "productivity chart"
+      "imageUrl": "https://picsum.photos/seed/analysis/600/400",
+      "imageHint": "data analysis"
     }
   ]
 }
