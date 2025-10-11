@@ -58,22 +58,6 @@ export const experienceData = [
 
 export const projectsData = [
   {
-    id: "project1",
-    title: "Customer Churn Prediction",
-    description: "Developed a predictive model using Python and Scikit-learn to identify customers at risk of churning, enabling targeted retention strategies.",
-    tech: [],
-    imageUrlId: "project-alpha",
-    projectDetails: "This project focused on predicting customer churn for a telecom company. I used Python, Scikit-learn, and Pandas for data preprocessing, feature engineering, and model building. The resulting model helps identify at-risk customers, allowing for targeted retention strategies.",
-  },
-  {
-    id: "project2",
-    title: "Topic Modeling for Large Text Data",
-    description: "Implemented Latent Dirichlet Allocation (LDA) to uncover hidden thematic structures from a large corpus of text documents.",
-    tech: [],
-    imageUrlId: "project-beta",
-    projectDetails: "In this project, I implemented Latent Dirichlet Allocation (LDA) to perform topic modeling on a large corpus of text documents. The goal was to uncover hidden thematic structures in the data. I used NLTK for text preprocessing and Gensim for the LDA model implementation.",
-  },
-  {
     id: "project3",
     title: "CRM Data Migration and Report Setup",
     description: "Successfully managed the migration of CRM data to a new platform, ensuring data integrity and setting up automated reporting.",
