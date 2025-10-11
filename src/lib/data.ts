@@ -36,18 +36,25 @@ export const skillsData = [
 
 export const experienceData = [
   {
-    company: "Nomad Credit",
-    role: "Data Analyst",
-    period: "Sep 2022 - Present",
-    description: "Automated reporting workflows, developed interactive dashboards in Tableau, and utilized Python for predictive modeling to drive business decisions.",
-    rawTimeline: "At Nomad Credit, from September 2022 to present, I am a Data Analyst. I automate reporting, create Tableau dashboards, and use Python for predictive modeling.",
+    company: "Amity Institute of Information Technology (AIIT), Amity University Patna",
+    role: "Club Member - Techpreneurs",
+    period: "Sep 2025 - Present",
+    description: "Part-time role as a club member of the Techpreneurs group.",
+    rawTimeline: null,
   },
   {
-    company: "Oyo",
-    role: "Patron - Data Science",
-    period: "Dec 2021 - Sep 2022",
-    description: "Contributed to data science initiatives, working on data analysis and model building to support business decisions. Gained experience in handling large-scale datasets and collaborating with cross-functional teams.",
-    rawTimeline: "As a Patron in Data Science at Oyo from December 2021 to September 2022, I contributed to data analysis and model building to support business decisions using large-scale datasets.",
+    company: "Nomad Credit",
+    role: "Junior Data Analyst",
+    period: "Apr 2024 - Present",
+    description: "Key skills include Data Visualization (Tableau, Hubspot, Power BI), Python, R, and SQL.",
+    rawTimeline: "As a Junior Data Analyst at Nomad Credit, I leverage skills in Tableau, Hubspot, Power BI, Python, R, and SQL.",
+  },
+  {
+    company: "Nomad Credit",
+    role: "Data Specialist",
+    period: "Mar 2022 - Mar 2024",
+    description: "Focused on Data Analysis and Interpretation, and Data Visualization using Tableau, Hubspot, and Power BI.",
+    rawTimeline: null,
   },
 ];
 
@@ -72,8 +79,8 @@ export const projectsData = [
 
 export const educationData = [
     {
-        institution: "Vellore Institute of Technology",
-        degree: "Bachelor of Technology - Computer Science and Engineering",
-        period: "2018 - 2022",
+        institution: "Amity University",
+        degree: "B.Sc IT, Information Technology",
+        period: "2025 - 2028",
     }
 ];
