@@ -19,7 +19,7 @@ Let’s connect and explore how we can use data to drive success!`,
   contact: {
     email: "anish.raj@example.com",
     social: [
-      { name: "GitHub", url: "https://github.com/Anish-raj-99", icon: Github },
+      { name: "GitHub", url: "https://github.com/anishraj2347-gif", icon: Github },
       { name: "LinkedIn", url: "https://www.linkedin.com/in/anish-raj99", icon: Linkedin },
       { name: "Twitter", url: "https://twitter.com", icon: Twitter },
     ],
