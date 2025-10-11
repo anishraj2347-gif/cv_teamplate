@@ -2,23 +2,15 @@ import { personalData } from "@/lib/data";
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 import Link from "next/link";
+import { AnimatedScene } from "@/components/3d/animated-scene";
 
 export function HeroSection() {
   return (
     <section id="hero" className="relative h-[100svh] min-h-[700px] flex items-center justify-center text-center overflow-hidden">
-      <div className="absolute inset-0 z-0 bg-black">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-30"
-        >
-          {/* You can replace this with your own video */}
-          <source src="https://cdn.coverr.co/videos/coverr-a-man-working-on-his-laptop-5544/1080p.mp4" type="video/mp4" />
-        </video>
+      <div className="absolute inset-0 z-0 bg-background">
+         <AnimatedScene />
       </div>
-      <div className="relative z-10 flex flex-col items-center space-y-6">
+      <div className="relative z-10 flex flex-col items-center space-y-6 text-white">
         <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl">
           {personalData.name}
         </h1>

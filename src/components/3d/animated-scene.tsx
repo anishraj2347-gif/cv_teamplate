@@ -86,5 +86,5 @@ export function AnimatedScene() {
     };
   }, []);
 
-  return <div ref={mountRef} className="absolute inset-0 z-0" />;
+  return <div ref={mountRef} className="absolute inset-0 z-0 opacity-30" />;
 }
