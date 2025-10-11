@@ -20,12 +20,17 @@ export function AnimatedScene() {
     currentMount.appendChild(renderer.domElement);
 
     // Geometry and Material
-    const geometry = new THREE.IcosahedronGeometry(1.5, 0);
-    const material = new THREE.MeshNormalMaterial({ wireframe: false });
+    const geometry = new THREE.IcosahedronGeometry(2, 1);
+    const material = new THREE.MeshStandardMaterial({ 
+      color: 0x2196f3, // Professional Blue
+      roughness: 0.5,
+      metalness: 0.1,
+      wireframe: true 
+    });
     const ico = new THREE.Mesh(geometry, material);
     scene.add(ico);
 
-    camera.position.z = 4;
+    camera.position.z = 5;
 
     // Lighting
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
@@ -47,12 +52,14 @@ export function AnimatedScene() {
     const animate = () => {
       requestAnimationFrame(animate);
       
-      ico.rotation.x += 0.001;
-      ico.rotation.y += 0.002;
+      ico.rotation.x += 0.0005;
+      ico.rotation.y += 0.0008;
       
       // Follow mouse
-      camera.position.x += (mouse.x * 2 - camera.position.x) * 0.02;
-      camera.position.y += (-mouse.y * 2 - camera.position.y) * 0.02;
+      const targetX = mouse.x * 0.5;
+      const targetY = -mouse.y * 0.5;
+      camera.position.x += (targetX - camera.position.x) * 0.02;
+      camera.position.y += (targetY - camera.position.y) * 0.02;
       camera.lookAt(scene.position);
 
       renderer.render(scene, camera);
@@ -79,5 +86,5 @@ export function AnimatedScene() {
     };
   }, []);
 
-  return <div ref={mountRef} className="absolute inset-0 z-0 opacity-30 dark:opacity-20" />;
+  return <div ref={mountRef} className="absolute inset-0 z-0 opacity-10 dark:opacity-5" />;
 }
