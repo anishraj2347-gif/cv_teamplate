@@ -17,6 +17,30 @@
       "description": "An e-commerce storefront",
       "imageUrl": "https://picsum.photos/seed/projectbeta/600/400",
       "imageHint": "ecommerce store"
+    },
+    {
+      "id": "project-gamma",
+      "description": "Data migration process",
+      "imageUrl": "https://picsum.photos/seed/projectgamma/600/400",
+      "imageHint": "data migration"
+    },
+    {
+      "id": "project-delta",
+      "description": "Data pipeline visualization",
+      "imageUrl": "https://picsum.photos/seed/projectdelta/600/400",
+      "imageHint": "data pipeline"
+    },
+    {
+      "id": "project-epsilon",
+      "description": "Team meeting around a dashboard",
+      "imageUrl": "https://picsum.photos/seed/projectepsilon/600/400",
+      "imageHint": "team meeting"
+    },
+    {
+      "id": "project-zeta",
+      "description": "Customer support agents working",
+      "imageUrl": "https://picsum.photos/seed/projectzeta/600/400",
+      "imageHint": "customer support"
     }
   ]
 }

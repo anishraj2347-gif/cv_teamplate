@@ -41,21 +41,18 @@ export const experienceData = [
     role: "Junior Data Analyst",
     period: "Apr 2024 - Present",
     description: "Key skills include Data Visualization (Tableau, Hubspot, Power BI), Python, R, and SQL.",
-    rawTimeline: "As a Junior Data Analyst at Nomad Credit, I leverage skills in Tableau, Hubspot, Power BI, Python, R, and SQL.",
   },
   {
     company: "Nomad Credit",
     role: "Data Specialist",
     period: "Mar 2022 - Mar 2024",
     description: "Focused on Data Analysis and Interpretation, and Data Visualization using Tableau, Hubspot, and Power BI.",
-    rawTimeline: null,
   },
   {
     company: "Amity Institute of Information Technology (AIIT), Amity University Patna",
     role: "Club Member - Techpreneurs",
     period: "Sep 2025 - Present",
     description: "Part-time role as a club member of the Techpreneurs group.",
-    rawTimeline: null,
   },
 ];
 
@@ -75,6 +72,38 @@ export const projectsData = [
     tech: ["Python", "NLTK", "Gensim"],
     imageUrlId: "project-beta",
     projectDetails: "In this project, I implemented Latent Dirichlet Allocation (LDA) to perform topic modeling on a large corpus of text documents. The goal was to uncover hidden thematic structures in the data. I used NLTK for text preprocessing and Gensim for the LDA model implementation.",
+  },
+  {
+    id: "project3",
+    title: "CRM Data Migration and Report Setup",
+    description: "Managed the seamless migration of CRM data to a new platform and established automated reporting.",
+    tech: ["SQL", "HubSpot", "Tableau"],
+    imageUrlId: "project-gamma",
+    projectDetails: null,
+  },
+  {
+    id: "project4",
+    title: "Partnership Pipeline Data Cleanup",
+    description: "Executed a comprehensive data cleanup and standardization for the partnership pipeline, improving data quality by 40%.",
+    tech: ["SQL", "Python", "Pandas"],
+    imageUrlId: "project-delta",
+    projectDetails: null,
+  },
+  {
+    id: "project5",
+    title: "Admissions & Loans Team Reporting",
+    description: "Designed and implemented reporting dashboards for the Admissions and Loans teams to track KPIs.",
+    tech: ["Tableau", "SQL", "HubSpot"],
+    imageUrlId: "project-epsilon",
+    projectDetails: null,
+  },
+  {
+    id: "project6",
+    title: "Customer Success Productivity",
+    description: "Analyzed customer success workflows and provided data-driven recommendations that improved team productivity.",
+    tech: ["Tableau", "Python"],
+    imageUrlId: "project-zeta",
+    projectDetails: null,
   },
 ];
 
