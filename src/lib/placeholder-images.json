@@ -1,6 +1,12 @@
 {
   "placeholderImages": [
     {
+      "id": "profile-pic",
+      "description": "A professional headshot",
+      "imageUrl": "https://picsum.photos/seed/profile/400/400",
+      "imageHint": "professional headshot"
+    },
+    {
       "id": "project-alpha",
       "description": "A collaborative whiteboard",
       "imageUrl": "https://picsum.photos/seed/projectalpha/600/400",

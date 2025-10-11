@@ -2,6 +2,7 @@ import { Github, Linkedin, Twitter, Code, Database, BarChart, FileJson } from 'l
 
 export const personalData = {
   name: "Anish Raj",
+  profilePictureUrlId: "profile-pic",
   title: "Data Analyst | SQL, Python, Tableau Expert | Turning Data into Actionable Insights",
   bio: `I am a data-driven professional with a passion for transforming raw data into meaningful insights that drive business growth and innovation. As a Data Analyst at Nomad Credit, I specialize in leveraging SQL, Python, HubSpot and Tableau to clean, analyze, and visualize data, enabling smarter, data-backed decisions.
 
@@ -36,13 +37,6 @@ export const skillsData = [
 
 export const experienceData = [
   {
-    company: "Amity Institute of Information Technology (AIIT), Amity University Patna",
-    role: "Club Member - Techpreneurs",
-    period: "Sep 2025 - Present",
-    description: "Part-time role as a club member of the Techpreneurs group.",
-    rawTimeline: null,
-  },
-  {
     company: "Nomad Credit",
     role: "Junior Data Analyst",
     period: "Apr 2024 - Present",
@@ -54,6 +48,13 @@ export const experienceData = [
     role: "Data Specialist",
     period: "Mar 2022 - Mar 2024",
     description: "Focused on Data Analysis and Interpretation, and Data Visualization using Tableau, Hubspot, and Power BI.",
+    rawTimeline: null,
+  },
+  {
+    company: "Amity Institute of Information Technology (AIIT), Amity University Patna",
+    role: "Club Member - Techpreneurs",
+    period: "Sep 2025 - Present",
+    description: "Part-time role as a club member of the Techpreneurs group.",
     rawTimeline: null,
   },
 ];
@@ -78,9 +79,9 @@ export const projectsData = [
 ];
 
 export const educationData = [
-    {
-        institution: "Amity University",
-        degree: "B.Sc IT, Information Technology",
-        period: "2025 - 2028",
-    }
+  {
+      institution: "Amity University",
+      degree: "B.Sc IT, Information Technology",
+      period: "2025 - 2028",
+  }
 ];
