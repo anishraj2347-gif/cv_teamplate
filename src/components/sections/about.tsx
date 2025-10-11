@@ -3,19 +3,33 @@ import { Section, SectionHeading } from "@/components/section-wrapper";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { MoveRight } from "lucide-react";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
+import Image from "next/image";
 
 export function AboutSection() {
+  const profilePic = PlaceHolderImages.find(p => p.id === personalData.profilePictureUrlId);
   return (
     <Section id="about" className="bg-background">
-      <div className="space-y-12">
+      <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-center">
+        <div className="relative w-full max-w-xs mx-auto aspect-square">
+          {profilePic && (
+             <Image
+                src={profilePic.imageUrl}
+                alt={personalData.name}
+                fill
+                className="rounded-full object-cover"
+                sizes="(max-width: 768px) 100vw, 33vw"
+             />
+          )}
+        </div>
         <div className="space-y-4">
           <SectionHeading>About Me</SectionHeading>
           <p className="text-lg text-muted-foreground leading-relaxed whitespace-pre-line">
             {personalData.bio}
           </p>
         </div>
-        
-        <div className="rounded-lg border bg-card text-card-foreground shadow-sm">
+      </div>
+      <div className="mt-16 rounded-lg border bg-card text-card-foreground shadow-sm">
           <div className="flex flex-col md:flex-row items-center justify-between p-6 gap-6">
             <div className="text-center md:text-left">
               <h3 className="text-xl font-bold font-headline">Let's Connect</h3>
@@ -40,8 +54,6 @@ export function AboutSection() {
             </div>
           </div>
         </div>
-
-      </div>
     </Section>
   );
 }
