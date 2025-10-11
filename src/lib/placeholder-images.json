@@ -1,3 +1,16 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "project-alpha",
+      "description": "A collaborative whiteboard",
+      "imageUrl": "https://picsum.photos/seed/projectalpha/600/400",
+      "imageHint": "whiteboard collaboration"
+    },
+    {
+      "id": "project-beta",
+      "description": "An e-commerce storefront",
+      "imageUrl": "https://picsum.photos/seed/projectbeta/600/400",
+      "imageHint": "ecommerce store"
+    }
+  ]
 }
