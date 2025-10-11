@@ -8,9 +8,9 @@
     },
     {
       "id": "project-gamma",
-      "description": "A diagram illustrating a data migration process leading to a report.",
-      "imageUrl": "https://picsum.photos/seed/datamigration/600/400",
-      "imageHint": "data process"
+      "description": "A diagram illustrating a data analysis process.",
+      "imageUrl": "https://picsum.photos/seed/processdiagram/600/400",
+      "imageHint": "analysis process"
     },
     {
       "id": "project-delta",
@@ -21,13 +21,13 @@
     {
       "id": "project-epsilon",
       "description": "A stylized diagram of a dashboard with several charts and graphs.",
-      "imageUrl": "https://picsum.photos/seed/reportdiagram/600/400",
-      "imageHint": "analytics diagram"
+      "imageUrl": "https://picsum.photos/seed/dashboard/600/400",
+      "imageHint": "analytics dashboard"
     },
     {
       "id": "project-zeta",
       "description": "An infographic showing a chart with an upward trend, representing productivity.",
-      "imageUrl": "https://picsum.photos/seed/productivity/600/400",
+      "imageUrl": "https://picsum.photos/seed/productivitychart/600/400",
       "imageHint": "process chart"
     }
   ]
