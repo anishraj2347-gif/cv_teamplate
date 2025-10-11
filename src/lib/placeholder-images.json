@@ -7,40 +7,28 @@
       "imageHint": "professional headshot"
     },
     {
-      "id": "project-alpha",
-      "description": "A chart showing customer churn prediction",
-      "imageUrl": "https://picsum.photos/seed/projectalpha/600/400",
-      "imageHint": "churn prediction"
-    },
-    {
-      "id": "project-beta",
-      "description": "A word cloud representing topic modeling",
-      "imageUrl": "https://picsum.photos/seed/projectbeta/600/400",
-      "imageHint": "topic modeling"
-    },
-    {
       "id": "project-gamma",
       "description": "Illustration of a CRM dashboard",
-      "imageUrl": "https://picsum.photos/seed/datamigration/600/400",
-      "imageHint": "data migration"
+      "imageUrl": "https://picsum.photos/seed/crm/600/400",
+      "imageHint": "crm dashboard"
     },
     {
       "id": "project-delta",
       "description": "A diagram of a clean data pipeline",
       "imageUrl": "https://picsum.photos/seed/datacleanup/600/400",
-      "imageHint": "data cleanup"
+      "imageHint": "data pipeline"
     },
     {
       "id": "project-epsilon",
       "description": "A reporting dashboard for admissions and loans",
-      "imageUrl": "https://picsum.photos/seed/reporting/600/400",
-      "imageHint": "reporting dashboard"
+      "imageUrl": "https://picsum.photos/seed/kpi/600/400",
+      "imageHint": "kpi dashboard"
     },
     {
       "id": "project-zeta",
       "description": "A chart showing productivity improvement",
-      "imageUrl": "https://picsum.photos/seed/analysis/600/400",
-      "imageHint": "data analysis"
+      "imageUrl": "https://picsum.photos/seed/workflow/600/400",
+      "imageHint": "workflow analysis"
     }
   ]
 }
