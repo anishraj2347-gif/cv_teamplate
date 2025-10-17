@@ -8,7 +8,6 @@
  */
 
 import { ai } from '@/ai/genkit';
-import { personalData } from '@/lib/data';
 import { Resend } from 'resend';
 import { z } from 'genkit';
 
@@ -34,7 +33,7 @@ const sendContactEmailFlow = ai.defineFlow(
   async (input) => {
     await resend.emails.send({
       from: 'onboarding@resend.dev', // This must be a verified domain on Resend
-      to: personalData.contact.email,
+      to: 'anishraj2347@zohomail.in',
       subject: `New message from ${input.name} via your portfolio`,
       html: `
         <p>You have a new contact form submission:</p>
