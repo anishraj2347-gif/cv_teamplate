@@ -17,7 +17,7 @@ I am passionate about continuous learning and staying updated with the latest to
 
 Let’s connect and explore how we can use data to drive success!`,
   contact: {
-    email: "anish2347@zohomail.in",
+    email: "anishraj2347@zohomail.in",
     social: [
       { name: "GitHub", url: "https://github.com/anishraj2347-gif", icon: Github },
       { name: "LinkedIn", url: "https://www.linkedin.com/in/anish-raj99", icon: Linkedin },
